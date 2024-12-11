@@ -66,14 +66,36 @@ h3{
 /* Page Piton */
 /* backgroung */
 .index1 {  
-    background-image: url('../image/pitonlethon.jpg');
+    background-image: url('../image/piton_neiges_fond.jpg');
     background-size: cover; /* Pour s'assurer que l'image couvre toute la page */
     background-position: center; /* Pour centrer l'image */
 }
 
 .para{
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(15px);
+    border-radius: 25px ;
     text-align: center;
+    margin-left: 35%;
+    margin-right: 10%;
+    font-size: 150%;
+    margin-top: -14.8%;
 }
+
+.small {
+    margin-top: 5%;
+    width: 22%;
+    margin-left:10%;
+}
+
+.video {
+margin-left: 20%;
+margin-top: 5%;
+margin-bottom: 5%;
+justify-content: space-between;
+}
+
+
 
 
 /* piton et Hengdianzhen */
@@ -91,6 +113,52 @@ h3{
     width: auto; /* Maintient les proportions */
     height: auto; /* Maintient les proportions */
 }
+
+.iframe-limite {
+    width: 600px; 
+    height: 400px; 
+}
+
+.QCM {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.index2 {
+    background-image:url("../IMAGE/ch.png") ;
+    background-size: cover; 
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* page Synthèse*/
