@@ -6,6 +6,19 @@
     background-position: center; /* Pour centrer l'image */
 }
 
+.pres span{
+    background: #D0B399;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.VP{
+    background: #827717 
+}
+
 
 
 
@@ -40,6 +53,7 @@
     height: fit-content;
 }
 
+
 /* Logo*/
 .small-image{
     width: 20%;
@@ -55,6 +69,10 @@
     background-image: url('../image/pitonlethon.jpg');
     background-size: cover; /* Pour s'assurer que l'image couvre toute la page */
     background-position: center; /* Pour centrer l'image */
+}
+
+.para{
+    text-align: center;
 }
 
 
